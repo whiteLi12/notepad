@@ -15,6 +15,8 @@
 
 # NoteList中显示条目增加时间显示
 
+![](https://github.com/whiteLi12/notepad/blob/master/image/1.png)
+
 找到列表中item的布局：noteslist_item.xml，在标题的TextView下再加一个时间的TextView。
 
 ```
@@ -78,6 +80,8 @@ String dateTime = format.format(date);
 
 
 # 笔记查询（按标题查询）
+
+![](https://github.com/whiteLi12/notepad/blob/master/image/2.png)
 
 找到菜单的xml文件，list_options_menu.xml，添加一个搜索的item
 
@@ -205,6 +209,8 @@ public class NoteSearch extends ListActivity  implements SearchView.OnQueryTextL
 
 # UI美化
 
+![](https://github.com/whiteLi12/notepad/blob/master/image/3.png)
+
 在AndroidManifest.xml中NotesList的Activity中添加：
 
 ```
@@ -328,6 +334,8 @@ adapter = new MyCursorAdapter(
 ```
 
 # 背景更换
+
+![](https://github.com/whiteLi12/notepad/blob/master/image/4.png)
 
 在PROJECTION中添加颜色项：
 
@@ -525,6 +533,10 @@ public class NoteColor extends Activity {
 
 
 # 笔记排序
+
+![](https://github.com/whiteLi12/notepad/blob/master/image/5.png)
+
+![](https://github.com/whiteLi12/notepad/blob/master/image/6.png)
 
 在菜单文件list_options_menu.xml中添加：
 
