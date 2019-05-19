@@ -10,6 +10,9 @@
 
 ### 笔记排序
 
+
+
+
 # NoteList中显示条目增加时间显示
 
 找到列表中item的布局：noteslist_item.xml，在标题的TextView下再加一个时间的TextView。
@@ -71,6 +74,8 @@ Date date = new Date(now);
 SimpleDateFormat format = new SimpleDateFormat("yyyy.MM.dd HH:mm:ss");
 String dateTime = format.format(date);
 ```
+
+
 
 # 笔记查询（按标题查询）
 
@@ -195,6 +200,8 @@ public class NoteSearch extends ListActivity  implements SearchView.OnQueryTextL
         android:label="@string/title_notes_search">
     </activity>
 ```
+
+
 
 # UI美化
 
@@ -514,6 +521,8 @@ public class NoteColor extends Activity {
     android:label="ChangeColor"
     android:windowSoftInputMode="stateVisible"/>
 ```
+
+
 
 # 笔记排序
 
